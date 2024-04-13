@@ -12,32 +12,58 @@
 
 </head>
 <body>
-  <nav class="p-3 flex  justify-between items-center ml-5">
-    <a href="#" id="brand" class="flex gap-2 items-center"> 
-      <i class="ri-gitlab-fill"></i>
-      <span class="text-lg font-medium ">Dark-X-blid</span>
+  <nav class="p-3 flex  justify-between items-center mt-3 border-b-2">
+    <a href="#" id="brand" class="flex gap-2 items-center pl-20"> 
+      <i class="ri-emphasis-cn text-2xl"></i>
+      <span class="text-2xl font-medium ">OM tutorial</span>
     </a>
 
-    <div id="nav-manu" class="hidden md:flex gap-12">
-      <a href="#" class="font-medium hover:text-blue-950"> Pricing</a>
-      <a href="#" class="font-medium hover:text-blue-950">Docs</a>
-      <a href="#" class="font-medium hover:text-blue-950">Changelog </a>
-      <a href="#" class="font-medium hover:text-blue-950"> Blogs</a>
-      <a href="#" class="font-medium hover:text-blue-950"> Login </a>
+    <div id="nav-manu" class="hidden md:flex gap-4 text-xl font-vigaa font-thin">
+      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> Home</a>
+      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> Course</a>
+      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> Book </a>
+      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> Teacher</a>
+      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> About</a>
+     
+      
  
     </div>
 
-    <button class="hidden md:flex  text-black gap-2 items-center  justify-center  border border-gray-500 px-6 p-1 rounded-xl hover:bg-blue-800 hover:text-white transition-all">
-      <i class="ri-emphasis-cn"></i>
-      <span>Electron Developers</span>
-      <i class="ri-arrow-right-line"></i>
-   
+    <button class="hidden md:flex mr-20 font-medium border border-black text-black gap-2 items-center  justify-center px-6 py-1 text-base rounded-xl hover:bg-blue-800 hover:text-white transition-all">
+    
+      <span>Sing up</span>
     </button>
 
-    <button class="p-2 md:hidden" onclick="handleMenu()">
+    <button class="p-2 md:hidden " onclick="handleMenu()">
       <i class="ri-menu-fill text-gray-800 text-lg"></i>
     </button>
   </nav>
+
+  <!-- hero-section -->
+  <main> 
+ <div id="hero" class="flex justify-center gap-9">
+  <div id="image" class="w-1/4">
+    <img class="object-cover max-w-64" src="idea.svg" alt="">
+  </div>
+
+  <div id="hero-container max-w-4xl max-auto px-6">
+    <div class="text-center">
+      <h1 class="font-bold mt-32 text-8xl font-vigaa mb-4 text-blue-900">Discover your <br>Path to success </h1>
+      <p class="font-vigaa">Dream big, act with purpose, and watch your future unfold with boundless possibilities.</p>
+      <div class="flex justify-center gap-16 mt-5">
+        <button class="py-3 px-5 border bg-blue-900 text-white rounded-md ">Get start with us <i class="ri-play-circle-fill"></i></button>
+        <button class="py-3 px-5 border bg-blue-900 text-white rounded-md ">Take Demo smore <i class="ri-group-3-fill"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="image" class="w-1/4 flex justify-center gap-5">
+    <img class=" max-w-28" src="idea image.svg" alt="">
+    <img class=" max-w-60" src="graph image.svg" alt="">
+
+  </div>
+ </div>
+  </main>
 </body>
 <script src="script.js"></script>
 </html>
