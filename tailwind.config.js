@@ -7,7 +7,7 @@ module.exports = {
       vigaa:["Viga","sans-serif"]
     },
     color: {
-      'custom-blue': '#2a224b',
+      'custom-blue':'#2a224b',
     }
   },
   plugins: [],
