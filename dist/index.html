@@ -6,65 +6,56 @@
   <title>Document</title>
   <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    rel="stylesheet"/>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animation.css">
 
 </head>
-<body>
-  <nav class="p-3 flex  justify-between items-center mt-3 border-b-2">
+<body class="bg-black text-white">
+  <nav class="p-3 flex  justify-between items-center mt-3">
     <a href="#" id="brand" class="flex gap-2 items-center pl-20"> 
-      <i class="ri-emphasis-cn text-2xl font-vigaa font-medium"></i>
-      <span class="text-2xl font-medium font-vigaa ">OM tutorial</span>
+      <i class="ri-lungs-fill  text-3 xl font-vigaa font-medium"></i>
+      
+     
+     
+      <span class="text-2xl font-medium font-voltic">Proginosis-X</span>
     </a>
 
-    <div id="nav-manu" class="hidden md:flex gap-4 text-xl font-vigaa font-thin">
-      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> Home</a>
-      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> Course</a>
-      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> Book </a>
-      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> Teacher</a>
-      <a href="#" class="px-3 py-1 rounded-md hover:text-white hover:bg-blue-700 transition-all"> About</a>
+    <div id="nav-manu" class="hidden md:flex gap-4 text-xl font-voltic ">
+      <a href="#" class="px-3 py-1"> Home </a>
+      <a href="#" class="px-3 py-1"> Feature </a>
+      <a href="#" class="px-3 py-1"> How to use </a>
+      <a href="#" class="px-3 py-1"> Doc </a>
      
       
  
     </div>
 
-    <button class="hidden md:flex mr-20 font-medium border border-black text-black gap-2 items-center  justify-center px-6 py-1 text-base rounded-xl hover:bg-blue-800 hover:text-white transition-all">
+    <button class="hidden md:flex mr-20 font-medium border border-white text-white gap-2 items-center  justify-center px-6 py-2 text-base rounded-xl">
     
       <span>Sing up</span>
     </button>
 
-    <button class="p-2 md:hidden " onclick="handleMenu()">
-      <i class="ri-menu-fill text-gray-800 text-lg"></i>
-    </button>
   </nav>
 
   <!-- hero-section -->
   <main> 
  <div id="hero" class="flex justify-center gap-9">
-  <div id="image" class="w-1/4">
-    <img class="ml-36 mt-20 max-w-64" src="graph image.svg" alt="">
-  </div>
 
-  <div id="hero-container max-w-4xl max-auto px-6">
+
+  <div id="hero-container">
     <div class="text-center">
-      <h1 class="font-bold mt-32 text-8xl font-vigaa mb-4 text-blue-900">Discover your <br>Path of success </h1>
-      <p class="font-vigaa">Dream big, act with purpose, and watch your future unfold with boundless possibilities.</p>
+      <h1  id="hero-heading" class="font-bold mt-32 text-8xl  font-voltic mb-4 text-white">Add poweful <br>
+        collabrative experiences <br>
+        change able to </h1>
+      <p class="font-voltic font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Modi inventore eum molestias quod sequi tempore natus, <br> officia excepturi fugit culpa voluptatem ipsam, tempora at, voluptates <br> consectetur. Quibusdam voluptate molestias expedita.</p>
       <div class="flex justify-center gap-16 mt-5">
-        <button class="py-1 px-5 border bg-yellow-500 text-black rounded-md flex justify-center items-center gap-3">Get start with us <i class="ri-play-circle-fill text-4xl "></i></button>
-        <button class="py-1 px-5 border bg-yellow-500 text-black rounded-md flex justify-center items-center gap-3 ">Take Demo smore <i class="ri-group-3-fill text-4xl"></i></button>
+        <button id="get-start-btn" class="px-7 py-5 border text-black bg-white rounded-md flex justify-center items-center gap-3 mt-11">Get start with us </button>                                                               
       </div>
     </div>
   </div>
 
-  <div id="image" class="w-1/4 flex flex-col justify-center gap-5">
-    <!-- <img class=" max-w-28" src="idea image.svg" alt=""> -->
-    <img class=" max-w-60" src="idea.svg" alt="">
-    
-      <div class="h-96">
-        <img  src="hero sectiion female.svg" alt="" class="flex justify-center items-center h-full  w-full object-cover">
-      </div>
-  </div>
+
  </div>
   </main>
 </body>

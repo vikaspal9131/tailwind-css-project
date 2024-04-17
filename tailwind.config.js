@@ -4,11 +4,14 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      vigaa:["Viga","sans-serif"]
+      vigaa:["Viga","sans-serif"],
+      voltic:["Yantramanav" ,"sans-serif"] 
     },
     color: {
       'custom-blue':'#2a224b',
+      
     }
+    
   },
   plugins: [],
 }
