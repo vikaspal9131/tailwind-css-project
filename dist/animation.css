@@ -24,6 +24,8 @@
   }
 }
 
+
+
 #nav-manu a{
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -63,6 +65,3 @@
   box-shadow: rgba(255, 255, 255, 0.4) 0  0 90px 10px;
 }
 
-#hero-heading{
-  line-height: 4.7rem;
-}
