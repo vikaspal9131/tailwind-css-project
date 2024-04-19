@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Proginosis-X</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"/>
@@ -15,12 +16,9 @@
   <div class="nav-div w-screen flex justify-center items-center">
 
     <nav class="p-3 w-11/12 flex  justify-between items-center mt-3">
-      <a href="#" id="brand" class="flex gap-2 items-center pl-20"> 
-        <i class="ri-leaf-fill text-3xl"></i>
-        
-        
-        
-        <span class="text-2xl font-medium font-voltic">Proginosis-X</span>
+      <a href="#" id="brand" class="flex gap-2 justify-center items-center pl-20"> 
+        <i class="ri-blaze-fill text-2xl"></i>
+        <span class="text-2xl font-medium font-voltic">Proginosis</span>
       </a>
       
       <div id="nav-manu" class="hidden md:flex gap-4 tex-xl font-voltic ">
@@ -33,24 +31,24 @@
         
       </div>
       
-      <div class="w-72 flex ">
-        <button class="hidden md:flex justify-center items-center w-24 h-9 mr-20  font-mediu rounded-2xl font-voltic text-xl "> Login </button>
-        <button class="hidden md:flex justify-center items-center w-56 h-9 mr-20  font-medium bg-white text-black rounded-2xl"> Sing up</button>
+      <div class="w-72 flex justify-center">
+        <button class="hidden md:flex justify-center items-center w-24 h-9  font-medium rounded-2xl "> Login </button>
+        <button class="hidden md:flex justify-center items-center w-24 h-9  font-medium bg-white text-black rounded-2xl hover:bg-black hover:text-white transition duration-500"> Sing up</button>
       </div>
       
     </nav>
   </div>
     
-    <!-- hero-section -->
   <main> 
- <div id="hero" class="flex justify-center">
+    <!-- hero-section -->
+    <div id="hero" class="flex justify-center items-center">
 
 
   <div id="hero-container">
     <div class="text-center">
       <div class="flex justify-center mt-28">
         <div class="w-72 h-10 border border-solid border-gray-300 border-1 text-white  rounded-full flex justify-around items-center">
-          <div class="bg-blue-700 px-4 rounded-full ">New</div>
+          <div class="bg-blue-700 px-4 rounded-full "> <i class="ri-sparkling-fill mr-2"></i></i>New</div>
           <div>
             <button  class="flex  items-center"> Chat with our AI ! </button>                                                               
           </div>
@@ -58,18 +56,45 @@
         </div>
       </div>
       <h1  id="hero-heading" class="font-bold mt-5 text-7xl  font-voltic mb-4 text-white">Tame the Wild West <br>
-        of Frontend Development  </h1>
+        <span id="auto-type"></span>
+        </h1>
       <p class="font-voltic font-light text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi inventore eum molestias quod sequi tempore <br>
          natus, officia excepturi fugit culpa voluptatem ipsam, tempora at, voluptates  consectetur. <br> Quibusdam voluptate molestias expedita.</p>
       <div class="flex justify-center gap-16 mt-5">
-        <button id="get-start-btn" class=" w-52 h-16 text-xl text-white bg-blue-700  rounded-md flex justify-center items-center gap-3 mt-11 hover:bg-white hover:text-black transitin duration-500"> <i class="ri-rocket-fill"></i>Get start with us </button>                                                               
+        <button id="get-start-btn" class=" w-52 h-16 text-xl text-white bg-blue-700  rounded-md flex justify-center items-center gap-3 mt-11 hover:bg-white hover:text-black transitin duration-500"> <i id="get-icon" class="ri-rocket-fill text-2xl"></i>Get start with us </button>                                                               
       </div>
     </div>
   </div>
 
 
  </div>
-  </main>
+ <!-- hero-end -->
+
+ <!-- featur section -->
+
+  
+  <div class="flex justify-center w-screen">
+
+    <div class="flex justify-between w-screen">
+
+      <div  data-aos="fade-up" class="w-96 h-40 bg-red-900 rounded-2xl mt-56"></div>
+      <div  data-aos="fade-up" class="w-96 h-40 bg-red-900 rounded-2xl mt-56"></div>
+      <div  data-aos="fade-up" class="w-96 h-40 bg-red-900 rounded-2xl mt-56"></div>
+      
+    </div>
+   
+    
+    
+    </div>
+
+  </div>
+
+
+</div>
+ 
+</main>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script src="script.js"></script>
 </html>
