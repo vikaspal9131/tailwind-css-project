@@ -31,10 +31,12 @@
 
   50% {
     transform: translateY(-5px);
+
   }
 
   75%{
     transform: translateY(3px);
+    color: red;
   }
 
   100% {

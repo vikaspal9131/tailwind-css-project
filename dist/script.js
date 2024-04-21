@@ -15,8 +15,9 @@ function textChange(){
 
 // js animatin 
 AOS.init({
-  offset: 100,
-  duration: 500,
+  offset: 50,
+  duration: 1000,
+  
 });
 
 
